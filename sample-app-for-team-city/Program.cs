@@ -7,6 +7,11 @@ namespace sample_app_for_team_city
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine(string.Format("{0} {1}", "Hello, ", "UseStringInterpolation inspection"));
+
+            var hello = "Hello, ";
+            Console.WriteLine(hello+" ConvertToConstant.Local inspection");
+            
             Console.WriteLine("Hello, TeamCity");
         }
     }
